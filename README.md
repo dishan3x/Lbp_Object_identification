@@ -1,20 +1,40 @@
 # Object detection using Local Binary classification 
 
 Developer : Dishan Nahitiya
-Area : Computer science 
+Area      : Image analysis
 
 
+# Objective and Methodology
 
-# Objective 
+ Develop a classifier to identify different object in plants and crops.
 
-Develop a simple program to identify different object in pants,crops, and in the nature.
+# Rationale
+ Increase use technological equipment in a growing population has had a greater impact in human life style. Equipment’s such as computers, phones, robots etc. has been immense help in increasing quality of life. This project ill be utilizing local binary pattern data base, for the most part is creating or training models by analyzing substantial visual imagery.
 
-# What is lbp
+# What is lbp ?
 
-Local binary search is a image texture classification algorithm which transform an image in to a pattern sequence whcih identtfy intensity texture pattern and identtify simlarties of images
+Local binary search is a image texture classification algorithm which transform an image in to a pattern sequence whcih identify intensity texture pattern and identtify simlarties of images. 
 
-# History
+Basic 3 * 3 pattern
 
+we are taking 8 pixels such as
+
+ 64 | 128 |   1
+----------------
+ 32 |   0 |   2
+----------------
+ 16 |   8 |   4  
+ 
+Since pattern matching is using a binary scheme/methodology , this process is called binary pattern matching. The lbp values we are gathering after the calculation shows the intesity of the of the each color represent in the picture and the scales are round up to the 256
+
+ intesity to of each catogory
+ ^
+ |
+ |
+ |_________ >  
+     color scheme
+     
+ <-- 256 --->
 
 
 # What is it used for
@@ -22,15 +42,19 @@ Local binary search is a image texture classification algorithm which transform 
  - face recognition 
  - face detection 
  - verication purposed of the facial images
- - 
 
+# Sketch 
 
+  <img src="lbp_process.png" alt="projectProposalAgr935_image" width="500"/>
+  
 # Results and Discussion 
- Since the match is problem 
+ - Since the match is problem 
  - rotation was needed to identify the differences because the 
+ 
 # Conclusion 
 
- - Hard to identify the intensties becuase of the spread
+ - Hard to identify the intensties becuase of unorthodox shapes of each plants.
+ - Large data set is needed to optimizer  
  - It was easy to identify the things
  
   
