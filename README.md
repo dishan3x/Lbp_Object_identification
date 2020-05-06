@@ -43,7 +43,7 @@ which has the ability to identify the probability distributions in histograms.
 <br>
 <p align="center">
  <img src="images/readme/validation.PNG" alt="" height="80" width="220" />
-  <p align="center">Figure 3. Kullback Leibler divergence idetifcation.</p>
+  <p align="center">Figure 3. Kullback Leibler divergence identification .</p>
 </p>
 
 
