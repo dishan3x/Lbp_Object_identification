@@ -79,7 +79,7 @@ which has the ability to identify the probability distributions in histograms.
  - When there's increase of radius it will increase the divergense value, which can Identify as more acceptable out come. 
  
 ## Future work
- - I already working with svm and cnn networks. Need some fine tuning in those project which I believe that I could get more accurate results in classifying crop medels. 
+ - I already started working with svm and cnn networks. Need some fine tuning in those project which I believe that I could get more accurate results in classifying crop medels. 
 ## References
 
 1.[Vupputuri, A. and Meher, S., 2015, April. Facial expression recognition using local binary patterns and kullback leibler divergence. In 2015 International Conference on Communications and Signal Processing (ICCSP) (pp. 0349-0353). IEEE.](https://ieeexplore.ieee.org/document/7322904)
