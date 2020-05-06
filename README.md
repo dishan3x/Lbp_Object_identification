@@ -1,15 +1,21 @@
-# Object detection using binary classification 
+# Object detection using Local Binary classification 
 
 Developer : Dishan Nahitiya
 Area : Computer science 
 
+
+
 # Objective 
 
-Develop a simple program to identify different object in images by using 
+Develop a simple program to identify different object in pants,crops, and in the nature.
 
-# What is lbp 
+# What is lbp
+
+Local binary search is a image texture classification algorithm which transform an image in to a pattern sequence whcih identtfy intensity texture pattern and identtify simlarties of images
 
 # History
+
+
 
 # What is it used for
 
