@@ -1,4 +1,4 @@
-# Object detection using Local Binary classification 
+# Object detection using local binary classification 
 
 Developer : Dishan Nahitiya</br>
 Area      : Image analysis
@@ -10,11 +10,15 @@ Develop an image classifier to identify the nearest class label of canopies base
 
 ##  Methodology
 
- There are number of image classification algorithm in the field of image analysis. I will make this project as a opportunity to explore about local binary pattern search , a basic image analysis method which is widely used in facial recognition, face detection and etc verication purposed of the facial images.   
+ There are number of image classification algorithm in the computer field of image analysis. I will make this project as an opportunity to explore about local binary pattern search , an efficient texture analysis method which is widely used in the areas of
+ - facial recognition 
+ - face detection
+ - verication purposed of the facial images  
 
 ## What is local binary pattern search ?
 
-Local binary search is a texture based classification algorithm which generates a pattern sequence. This technique uses a 3 * 3 which traverse through all pixel and use threshholding arround the center pixel and generate a 8 bit number.LBP operator is then applied on the image to extract local features represented by histogram.
+Local binary search is a texture based classification algorithm which generates a pattern sequence. This technique uses a 3 * 3 binary grid which traverse through all pixel and use and calculate
+threshholding arround the center pixel and generate a 8 bit number.LBP operator is then applied on the image to extract local features represented by histogram.
 
 
 <p align="center">
@@ -45,6 +49,7 @@ which has the ability to identify the probability distributions in histograms.
 
  This algorithm provides the information lost in the mapping process  and  greater the loss resembels dissimilarity between the distributions.
 
+
 ## Challanges
   When analysing images , due to various reason such as noise, brightness, shape difference, orientation difference and etc, the models might not be able to identify divergense in histograms. As a solutiuon I tried images using data augmentation algorithms. 
  This would give the ability to create different senario of each image and identify the texture similarities in the pictures. 
@@ -58,20 +63,24 @@ which has the ability to identify the probability distributions in histograms.
 
   
 ## Results and Discussion 
- - Since the match is problem 
- - rotation was needed to identify the differences because the 
- - since  Kullback Leibler divergence is not a high end distant classifier it has the ability to produce false output.
+
+ - The labels are I aquired for this project is contaminated due to having 2 or more classes in the same image. Therefore the modler will falsely identify the wrong image
+   but having same kind of texture. 
+ - Rotation was needed to identify the differences because the 
+ - Since  Kullback Leibler divergence is not a highend distant classifier it has the ability to produce false output.
    inorder get a proper classification it better use a classifier such as support vector machines, k-means and etc. 
    Moreover in modern day deep nural networks has the ability to identify object much accurately.
  
 ## Conclusion 
 
- - Hard to identify the intensties becuase of unorthodox shapes of each plants.
+ - Hard to identify the intensties becuase of unorthodox shapes of each plants and different number of leafs in a image. 
  - Large data set is needed to optimizer  
  - It was easy to identify the things
+ - When there's increase of radius it will increase the divergense value, which can Identify as more acceptable out come. 
  
-  
-#References
+## Future work
+ - I already working with svm and cnn networks. Need some fine tuning in those project which I believe that I could get more accurate results in classifying crop medels. 
+## References
 
 1.[Vupputuri, A. and Meher, S., 2015, April. Facial expression recognition using local binary patterns and kullback leibler divergence. In 2015 International Conference on Communications and Signal Processing (ICCSP) (pp. 0349-0353). IEEE.](https://ieeexplore.ieee.org/document/7322904)
 
