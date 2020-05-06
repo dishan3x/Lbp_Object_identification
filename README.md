@@ -43,7 +43,7 @@ which could lead similar propertise in its pictures.
  - rotation was needed to identify the differences because the 
  - since  Kullback Leibler divergence is not a high end distant classifier it has the ability to produce false output.
    inorder get a proper classification it better use a classifier such as support vector machines, k-means and etc. 
-   Moreover in modern day deep nural networks has the ability to identify the reagion
+   Moreover in modern day deep nural networks has the ability to identify object much accurately.
  
 # Conclusion 
 
@@ -56,4 +56,6 @@ which could lead similar propertise in its pictures.
 
 1.[Vupputuri, A. and Meher, S., 2015, April. Facial expression recognition using local binary patterns and kullback leibler divergence. In 2015 International Conference on Communications and Signal Processing (ICCSP) (pp. 0349-0353). IEEE.](https://ieeexplore.ieee.org/document/7322904)
 
-2. [Scikit-image.org. 2020. Local Binary Pattern For Texture Classification — Skimage V0.17.Dev0 Docs. [online] Available at: <https://scikit-image.org/docs/dev/auto_examples/features_detection/plot_local_binary_pattern.html>.](https://scikit-image.org/docs/dev/auto_examples/features_detection/plot_local_binary_pattern.html)
+2.[Scikit-image.org. 2020. Local Binary Pattern For Texture Classification — Skimage V0.17.Dev0 Docs. [online] Available at: <https://scikit-image.org/docs/dev/auto_examples/features_detection/plot_local_binary_pattern.html>.](https://scikit-image.org/docs/dev/auto_examples/features_detection/plot_local_binary_pattern.html)
+
+3.[kaggle.com. (n.d.). Image manipulation / augmentation with skimage. [online] Available at: https://www.kaggle.com/tomahim/image-manipulation-augmentation-with-skimage](https://www.kaggle.com/tomahim/image-manipulation-augmentation-with-skimage)
