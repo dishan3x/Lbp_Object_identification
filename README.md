@@ -64,7 +64,7 @@ which has the ability to identify the probability distributions in histograms.
   
 ## Results and Discussion 
 
- - The labels are I aquired for this project is contaminated due to having 2 or more classes in the same image. Therefore the modler will falsely identify the wrong image
+ - The labels,I aquired for this project are contaminated due to having 2 or more classes in the same image. Therefore the modler will falsely identify the wrong classes.
    but having same kind of texture. 
  - Rotation was needed to identify the differences because the 
  - Since  Kullback Leibler divergence is not a highend distant classifier it has the ability to produce false output.
@@ -73,12 +73,13 @@ which has the ability to identify the probability distributions in histograms.
  
 ## Conclusion 
 
- - Hard to identify the intensties becuase of unorthodox shapes of each plants and different number of leafs in a image. 
- - Large data set is needed to optimizer  
- - It was easy to identify the things
+ - Hard to identify the intensities due to unorthodox shapes of each plants and number of leaf cpunt variation in an image. 
+ - Need to gather more data to identy sharp edges.  
+ - It was easy to identify flat areas in a image.
  - When there's increase of radius it will increase the divergense value, which can Identify as more acceptable out come. 
  
 ## Future work
+ - Try to adopt otsu method to isolate dense areas. 
  - I already started working with svm and cnn networks. Need some fine tuning in those project which I believe that I could get more accurate results in classifying crop medels. 
 ## References
 
