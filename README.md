@@ -51,8 +51,10 @@ which has the ability to identify the probability distributions in histograms.
 
 
 ## Challanges
-  When analysing images , due to various reason such as noise, brightness, shape difference, orientation difference and etc, the models might not be able to identify divergense in histograms. As a solutiuon I tried images using data augmentation algorithms. 
+  - When analysing images , due to various reason such as noise, brightness, shape difference, orientation difference and etc, the models might not be able to identify divergense in histograms. As a solutiuon I tried images using data augmentation algorithms. 
  This would give the ability to create different senario of each image and identify the texture similarities in the pictures. 
+  - Local binary pattern operates in 2 x 2 dimention forcing to change the image to gray scale pattern. Unfortunetly this process
+  will reduce the accuracy in understanding correct cluster. 
 
 ## Sketch 
 <p align="center">
