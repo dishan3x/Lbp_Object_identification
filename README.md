@@ -83,7 +83,7 @@ which has the ability to identify the probability distributions in histograms.
  - When there is a increase of radius, divergense value and the execution time is propotional to the radius.  
  
 ## Future work
- - Try to adopt otsu method to isolate dense areas. 
+ - Adopt otsu method to isolate dense areas to clear the noise in images.  
  - I already started working with svm and cnn networks. Need some fine tuning in those project which I believe that I could get more accurate results in classifying crop medels. 
 ## References
 
