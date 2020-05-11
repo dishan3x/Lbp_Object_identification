@@ -46,8 +46,8 @@ model needs to get support of a distant classifier. This project uses  Kullback 
 which has the ability to identify the probability distributions in histograms.
 <br>
 <p align="center">
- <img src="images/readme/KullBack.PNG" alt="" height="80" width="220" />
-  <p align="center">Figure 3. Kullback Leibler divergence identification .</p>
+ <img src="images/readme/lbp_process.png" class="center" alt="" height="115" width="500"/>
+  <p align="center">Figure 4. Kullback Leibler divergence identification .</p>
 </p>
 
 
