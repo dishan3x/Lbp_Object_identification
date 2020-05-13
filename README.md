@@ -24,7 +24,7 @@ threshholding arround the center pixel and generate a 8 bit number.LBP operator 
 
 
 <p align="center">
-  <img src="images/readme/histpogram_transoformation_1.PNG"  alt="" height="200" width="500"/>
+  <img src="images/readme/histpogram_transoformation_1.PNG"  alt="" height="230" width="600"/>
   <p align="center">Figure 1. lbp transformation</p>
 </p>
 
