@@ -13,7 +13,7 @@ Develop an image classifier to identify the nearest class label of canopies base
  There are number of image classification algorithm in the field of image analysis. I will make this project as an opportunity to explore about local binary pattern search , an efficient texture analysis method which is widely used in the areas of
  - facial recognition 
  - face detection
- - verication purposed of the facial images
+ - verfication purposed of the facial images
  
  This goal of this project is to try to make a classifier which identify the different textures of crop types and soil types.  
 
